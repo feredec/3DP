@@ -6,20 +6,28 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      line-height: 1.6;
+      /*line-height: 1.6;*/
       margin: 20px;
       max-width: 900px;
+	  background-color: #7f7f70;
     }
     h1 {
       color: #333;
       text-align: center;
-	  text-transform: uppercase;
+	  /*text-transform: uppercase;*/
+	  font-variant: small-caps;
     }
+	h1.close {
+		margin-bottom: 5px;
+	}
     h2 {
-      color: #555;
+      color: #e0e0e0;
     }
 	h3 {
       text-align: center;
+	}
+	h3.close{
+		margin-top: -5px;
 	}
     .project {
       margin-bottom: 40px;
@@ -31,10 +39,10 @@
       height: auto;
       display: block;
       margin: 10px 0;
-      border: 1px solid #ddd;
+      /*border: 1px solid #ddd;*/
       border-radius: 4px;
-      padding: 5px;
-      background: #f9f9f9;
+      padding: 5px 0;
+      /*background: #f9f9f9;*/
     }
     p {
       margin: 5px 0;
@@ -49,15 +57,15 @@
 </head>
 <body>
 
-  <h1>3D Prints Portfolio</h1>
-  <h3>Mechanical parts design and manufacturing samples.</h3>
+  <h1 class="close">3D Prints Portfolio</h1>
+  <h3 class="close">Mechanical parts design and manufacturing samples.</h3>
 
   <!-- Bottom border, see style -->
   <div class="project"></div>
   
   <!-- Racking Hose Clip -->
   <div class="project">
-    <h2>Racking Hose Clip</h2>
+    <h2>Racking-Hose Clip</h2>
     <p>A pair of clips assuring the hose not slipping out from the tank.<br/>
 	Printed in PETG and TPU.</p>
     <img src="images/Racking_Hose_Clip.jpg" alt="Hose clip">
@@ -133,7 +141,7 @@
   <!-- Luggage Castor Shoes -->
   <div class="project">
     <h2>Luggage Castor Shoes</h2>
-    <p>Suitcase castor shoes repair. Original TPE quickly worn out on rough surfaces.<br/>
+    <p>Suitcase castor shoes repair. Original TPE wore out quickly on rough surfaces.<br/>
 	Printed in TPU.</p>
     <img src="images/Luggage_Castor_Shoes.jpg" alt="Castor">
   </div>
