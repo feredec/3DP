@@ -29,7 +29,7 @@
 	margin-top: -5px;
   }
   
-  ul li > a {
+  ul li a {
     text-decoration-style: dashed;
     font-weight: bold;
     color: white;	  
