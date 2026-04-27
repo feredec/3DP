@@ -3,7 +3,7 @@
     /*line-height: 1.6;*/
     margin: 20px;
     max-width: 900px;
-  background-color: #7f7f70;
+    background-color: #7f7f70;
   }
   
   h1 {
@@ -12,21 +12,22 @@
     font-variant: small-caps;
   }
   
-	h1.close {
-		margin-bottom: 5px;
-	}
+  h1.close {
+	margin-bottom: 5px;
+  }
   
   h2 {
     color: #e0e0e0;
+	padding-top: 15px;
   }
   
-	h3 {
-      text-align: center;
-	}
+  h3 {
+    text-align: center;
+  }
   
-	h3.close{
-		margin-top: -5px;
-	}
+  h3.close{
+	margin-top: -5px;
+  }
   
   .project {
     margin-bottom: 40px;
