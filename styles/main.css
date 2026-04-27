@@ -29,16 +29,16 @@
 	margin-top: -5px;
   }
   
-  ul li a {
-    text-decoration-style: dashed;
-    font-weight: bold;
-    color: white;	  
-  }
-  
   .project {
     margin-bottom: 40px;
     border-bottom: 1px solid #ccc;
     padding-bottom: 20px;
+  }
+  
+  a.menuItem {
+    text-decoration-style: dashed;
+    font-weight: bold;
+    color: white;	  
   }
   
   img {
@@ -52,9 +52,9 @@
     /*background: #f9f9f9;*/
   }
   
-	video {
-		max-width: 900px;
-	}
+  video {
+	max-width: 900px;
+  }
   
   p {
     margin: 5px 0;
