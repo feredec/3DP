@@ -29,6 +29,12 @@
 	margin-top: -5px;
   }
   
+  ul li > a {
+    text-decoration-style: dashed;
+    font-weight: bold;
+    color: white;	  
+  }
+  
   .project {
     margin-bottom: 40px;
     border-bottom: 1px solid #ccc;
